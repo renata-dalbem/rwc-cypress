@@ -1,0 +1,21 @@
+{
+  "name": "rwc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run:electron": "npx cypress run",
+    "cy:run:chrome": "npx cypress run --browser chrome --headless",
+    "cy:run:firefox": "npx cypress run --browser firefox --headless",
+    "cy:run:edge": "npx cypress run --browser edge --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.0.1"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3"
+  }
+}
