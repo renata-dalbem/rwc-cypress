@@ -3,6 +3,10 @@ node_modules/
 
 # relatorios mocha
 mochawesome-report
+#cypress
+cypress/videos
+cypress/screenshots
+cypress/reports
 
 # relatorios cucumber
 cypress/reports/index.html

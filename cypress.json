@@ -6,5 +6,10 @@
     "user": {
         "email": "agilizei-renata@mail.com",
         "password": "12345678"
+    },
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "Cypress/reports/junit-[hash].xml"
     }
+
 }
